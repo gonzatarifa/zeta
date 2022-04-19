@@ -12,6 +12,8 @@ public class Tarea {
 	private int cantHorasDiarias;
 	private boolean habil;
 	
+	public Tarea() {};
+	
 	public Tarea(int idTarea, String tarea, LocalDate fechaInicio, LocalDate fechaFin, Empleado responsable,
 			int cantHorasDiarias, boolean habil) {
 		super();
