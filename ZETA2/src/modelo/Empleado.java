@@ -8,6 +8,13 @@ public class Empleado {
 	private String nroLegajo;
 	private double valorHora;
 	
+	public Empleado(String apellido, String nombre, String nroLegajo) {
+		super();
+		this.apellido = apellido;
+		this.nombre = nombre;
+		this.nroLegajo = nroLegajo;
+	}
+
 	public Empleado(String apellido, String nombre, String nroLegajo, double valorHora) {
 		super();
 		this.apellido = apellido;
@@ -58,4 +65,6 @@ public class Empleado {
 	public boolean equals(Object obj) {
 		return ((Empleado)obj).getNroLegajo().equals(this.getNroLegajo());
 	}
+	
+	
 }
